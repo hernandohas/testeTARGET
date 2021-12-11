@@ -1,0 +1,17 @@
+function fibonacci(inteiro){
+  var numero1 = 0;
+  var numero2 = 1;
+  var numero3 = 0;
+  
+  while(inteiro > numero3){
+	numero3 = numero1 + numero2;
+	numero1 = numero2;
+	numero2 = numero3;
+  }
+    
+   if(i == numero3){
+	alert("Numero ta na sequencia");
+   }else{
+     alert("Numero nao esta")
+   }
+}
